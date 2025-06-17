@@ -10,7 +10,7 @@ public class LoginTests extends ApplicationManager {
     @Test
     public void loginPositiveTest() {
         HomePage homePage = new HomePage(getDriver());
-        homePage.clickBtnLoginHeader();
+        homePage.clickBtnHeaderLogin();
         LoginPage loginPage = new LoginPage(getDriver());
         loginPage.typeLoginForm("elenam@gmail.com", "Password$1");
     }

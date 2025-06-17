@@ -16,11 +16,11 @@ public class HomePage extends BasePage {
     }
 
     @FindBy(xpath = "//a[text()=' Log in ']")
-    WebElement btnLoginHeader;
+    WebElement btnHeaderLogin;
     // = driver.findElement(By.xpath(...))
 
-    public void clickBtnLoginHeader() {
-        btnLoginHeader.click();
+    public void clickBtnHeaderLogin() {
+        btnHeaderLogin.click();
     }
 
 }
